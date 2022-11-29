@@ -1,0 +1,24 @@
+.RoomCard{
+    position: relative;
+    margin: 2em;
+}
+.RoomCard .cardImg{
+    overflow: hidden;
+}
+.RoomCard .details {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgb(197, 197, 197);
+    bottom: -15%;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+}
+
+.RoomCard .details .tag{
+    margin-right: 15px;
+}

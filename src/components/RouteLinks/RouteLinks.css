@@ -1,0 +1,21 @@
+.RouteLinks>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.RouteLinks>ul>li{
+    cursor: pointer;
+    list-style: none;
+    padding: 10px 30px;
+}
+.RouteLinks>ul>li>a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.RouteLinks>ul>li:last-child{
+    border: 1px solid;
+    border-radius: 6px;
+}

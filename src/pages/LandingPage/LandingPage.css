@@ -1,0 +1,44 @@
+@media only screen and (min-width: 300px) {
+    .LandingPage {
+        color: white;
+        width: 100vmax;
+        height: 100vh;
+        background-color: #273048;
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2) ), url(../../../public/img/landingPageBackground.jpeg);
+        background-repeat: no-repeat;
+        background-position:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .LandingText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .LandingText h1{
+        margin: 0;
+        font-size: 60px;
+        width: 60%;
+    }
+    .LandingText h2{
+        margin: 0;
+        padding-top: 20px;
+        font-size: 20px;
+        width: 60%;
+    }
+    #landingEnds{
+        width: 100%;   
+    }
+}
+@media only screen and (min-width: 640px) {
+    .LandingText h1{
+        font-size: 100px;
+    }
+    .LandingText h2{
+        font-size: 30px;
+    }
+}

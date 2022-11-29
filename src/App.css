@@ -1,0 +1,42 @@
+@media only screen and (min-width: 300px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .submitButtom{
+    background: linear-gradient(to right,#FF594C, #FAC527);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius:10px;
+    font-weight: bold;
+  }
+  .tag{
+    background: linear-gradient(to right,#FF594C, #FAC527);
+    padding: 0.2em 1em;
+    border-radius: 10px;
+  }
+  input[type='text']{
+    padding: 0.5em 0;
+    border: 0;
+  }
+  input[type='text']::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+  .backdropBlur{
+    backdrop-filter: blur(6px);
+  }
+  .sectionHeading{
+    font-size: 40px;
+  }
+  .sectionIntro{
+    font-size: 16px;
+    width: 300px;
+  }
+  .container{
+    padding: 2% 8%;
+  }
+  .radius-10{
+    border-radius: 10px;
+  }
+}

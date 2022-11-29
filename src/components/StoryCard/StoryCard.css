@@ -1,0 +1,23 @@
+.StoryCard{
+    position: relative;
+    margin: 3em;
+}
+.StoryCard .details {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgb(197, 197, 197);
+    bottom: -15%;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+}
+.StoryCard .details h3{
+    margin: 0.5em 0;
+}
+.StoryCard .details p{
+    margin: 0;
+}
